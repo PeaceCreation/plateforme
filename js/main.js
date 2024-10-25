@@ -2,9 +2,9 @@ let currentVideoIndex = 0;
 
 // Sample video data (each object should have a `url` property)
 const videos = [
-    { id: 1, title: 'Racine Carree 1', url: '../videos/Racine.mp4' },
-    { id: 2, title: 'Racine Carree  2', url: '../videos/Racine-Course-1.mp4' },
-    { id: 3, title: 'Racine Carree  3', url: '../videos/Racine-Cours-2.mp4' },
+    { id: 1, title: 'Racine Carree 1', url: './videos/Racine.mp4' },
+    { id: 2, title: 'Racine Carree  2', url: './videos/Racine-Course-1.mp4' },
+    { id: 3, title: 'Racine Carree  3', url: './videos/Racine-Cours-2.mp4' },
 ];
 
 const videoPlayer = document.getElementById('video-player');
